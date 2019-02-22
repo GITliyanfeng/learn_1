@@ -22,6 +22,8 @@ git clone --bare /xxx/xxx/xxx/xxx.git name.git    以哑协议克隆仓库得到
 git clone --bare file:///xxx/xxx/xxx/xxx.git name.git 以智能协议克隆仓库得到备份
 git remote -v 查看当前仓库的remote
 git remote add name file:///xxx/xxx/xxx/xxx.git  将备份仓库和当前仓库进行remote
+创建ssh ssh-keygen -t rsa -b 4096 -C "gmliyanfeng@gmail.com"
+查看创建的公钥 cat ~/.ssh/id_rsa.pub
 
 
 
