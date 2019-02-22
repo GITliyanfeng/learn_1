@@ -9,6 +9,7 @@ git checkout name
 git branch -d name
 git reset HEAD      将添加到暂存区中的文件取消,恢复到工作区
 git reset HEAD -- <filename..> 将暂存区的部分文件恢复为HEAD
+git reset --hard commit-ID 将工作区,暂存区,仓库,恢复到commit-id所对应的状态
 git checkout -- filename..  将工作区中的某文件恢复成为暂存区文件
 
 
