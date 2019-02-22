@@ -12,6 +12,12 @@ git branch -d name
 git reset HEAD      将添加到暂存区中的文件取消,恢复到工作区
 git reset HEAD -- <filename..> 将暂存区的部分文件恢复为HEAD
 git reset --hard commit-ID 将工作区,暂存区,仓库,恢复到commit-id所对应的状态
+git rm <filename> 删除指定文件  通过reset 可以恢复回来
 git checkout -- filename..  将工作区中的某文件恢复成为暂存区文件
+git stash 将当前进度的工作状态储存
+git stash list 查看stash中储存的存档
+git stash pop  将stash中储存的存档pop出来<恢复处理到一半的工作>
+git stash apply 将stash中储存的存档复制一份出来<恢复处理到一半的工作>
+
 
 
