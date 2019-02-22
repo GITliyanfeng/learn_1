@@ -18,6 +18,10 @@ git stash 将当前进度的工作状态储存
 git stash list 查看stash中储存的存档
 git stash pop  将stash中储存的存档pop出来<恢复处理到一半的工作>
 git stash apply 将stash中储存的存档复制一份出来<恢复处理到一半的工作>
+git clone --bare /xxx/xxx/xxx/xxx.git name.git    以哑协议克隆仓库得到备份
+git clone --bare file:///xxx/xxx/xxx/xxx.git name.git 以智能协议克隆仓库得到备份
+git remote -v 查看当前仓库的remote
+git remote add name file:///xxx/xxx/xxx/xxx.git  将备份仓库和当前仓库进行remote
 
 
 
