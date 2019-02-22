@@ -32,3 +32,6 @@ git marge name/branch-name  将当前分支和远端的某个分支左merge操�
 当出现nan-fast-forward的时候是本地分支和远端分支不匹配的原因,需要fetch下来进行merge
 或者经行pull
 
+
+添加冲突  from GITliyanfeng
+
