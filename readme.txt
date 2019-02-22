@@ -24,6 +24,7 @@ git remote -v 查看当前仓库的remote
 git remote add name file:///xxx/xxx/xxx/xxx.git  将备份仓库和当前仓库进行remote
 创建ssh ssh-keygen -t rsa -b 4096 -C "gmliyanfeng@gmail.com"
 查看创建的公钥 cat ~/.ssh/id_rsa.pub
+git marge name/branch-name  将当前分支和远端的某个分支左merge操作,生成一个将当前branch和远端branch均作为parents的节点
 
 
 
